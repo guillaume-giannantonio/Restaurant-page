@@ -1,0 +1,33 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Avant-garde';
+    src: url("../src/assets/fonts/ITC-Avant-Garde-Gothic-Std-Book.otf");
+}
+
+.main-top {
+    height: 300px;
+    background-image: url("../src/assets/img/background-mainpage.jpg");
+    background-size: cover;
+}
+
+header {
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+    color: white;
+}
+
+header img {
+    height: 120px;
+}
+
+header .header-mid {
+    font-family: 'Avant-garde', sans-serif;
+    display: flex;
+    gap: 50px;
+}
