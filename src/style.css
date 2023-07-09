@@ -141,3 +141,43 @@ header .header-mid {
     font-size: 25px;
     border-radius: 50%;
 }
+
+.menu-mid {
+    margin-top: 50px;
+}
+
+.menu-mid > h1 {
+    margin-left: 50px;
+    font-size: 44px;
+}
+
+.card-row-menu {
+    margin: 30px 50px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card-bottom-menu {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    height: 39px;
+    padding: 18px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 1000;
+}
+
+.select {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 50%;
+}
