@@ -205,3 +205,18 @@ header .header-mid {
 .plateau-sushi {
     background-image: url("../src/assets/img/carte10.jpg");
 }
+
+.about-mid {
+    margin-top: 50px;
+}
+
+.about-mid > h1 {
+    margin-left: 50px;
+    font-size: 44px;
+}
+
+.about-mid > p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 32px;
+}
