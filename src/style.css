@@ -5,12 +5,16 @@ html, body, h1, h2, h3, h4, h5, h6 {
 
 @font-face {
     font-family: 'Avant-garde';
-    src: url("../src/assets/fonts/ITC-Avant-Garde-Gothic-Std-Book.otf");
+    src: url("./assets/fonts/ITC-Avant-Garde-Gothic-Std-Book.otf");
+}
+
+body {
+    font-family: 'Avant-garde', sans-serif;
 }
 
 .main-top {
     height: 300px;
-    background-image: url("../src/assets/img/background-mainpage.jpg");
+    background-image: url("./assets/img/background-mainpage.jpg");
     background-size: cover;
 }
 
@@ -61,19 +65,19 @@ header .header-mid {
 }
 
 .sushi-saumon {
-    background-image: url("../src/assets/img/carte1.jpg");
+    background-image: url("./assets/img/carte1.jpg");
 }
 
 .sushi-mix {
-    background-image: url("../src/assets/img/carte2.jpg");
+    background-image: url("./assets/img/carte2.jpg");
 }
 
 .boule-de-riz {
-    background-image: url("../src/assets/img/carte3.jpg");
+    background-image: url("./assets/img/carte3.jpg");
 }
 
 .sushi-crevette {
-    background-image: url("../src/assets/img/carte4.jpg");
+    background-image: url("./assets/img/carte4.jpg");
 }
 
 .limited {
