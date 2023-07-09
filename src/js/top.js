@@ -1,6 +1,6 @@
 import logoImg from '../assets/img/logo.png';
 
-export default function() {
+export default function top() {
 	const mainTop = document.createElement('div')
 	mainTop.classList.add('main-top')
 
@@ -13,9 +13,12 @@ export default function() {
 
 	const home = document.createElement('h3')
 	home.textContent = 'Home'
+	home.id = 'home'
 	const menu = document.createElement('h3')
+	menu.id = 'menu'
 	menu.textContent = 'Menu'
 	const about = document.createElement('h3')
+	about.id = 'about'
 	about.textContent = 'About'
 	const divHeaderMid = document.createElement('div')
 	divHeaderMid.classList.add('header-mid')
@@ -31,5 +34,6 @@ export default function() {
 	header.appendChild(divCommands)
 
 	mainTop.appendChild(header)
+
 	return mainTop
 }

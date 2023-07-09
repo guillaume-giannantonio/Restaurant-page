@@ -36,6 +36,14 @@ header .header-mid {
     gap: 50px;
 }
 
+.header-mid > h3 {
+    height: 25px;
+}
+
+.header-mid > h3:hover {
+    cursor: pointer;
+}
+
 .main-mid {
     margin-top: 50px;
     font-family: 'Avant-garde', sans-serif;
