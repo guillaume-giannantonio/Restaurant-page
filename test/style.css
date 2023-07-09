@@ -91,3 +91,18 @@ header .header-mid {
     font-size: 25px;
     border-radius: 50%;
 }
+
+.about-mid {
+    margin-top: 50px;
+}
+
+.about-mid > h1 {
+    margin-left: 50px;
+    font-size: 44px;
+}
+
+.about-mid > p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 32px;
+}

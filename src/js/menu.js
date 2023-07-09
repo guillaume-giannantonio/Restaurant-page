@@ -1,5 +1,3 @@
-import main from './main';
-
 export default function () {
 	const mainMenu = document.createElement('div')
 	mainMenu.classList.add('menu-mid')
