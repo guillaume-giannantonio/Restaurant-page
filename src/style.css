@@ -181,3 +181,27 @@ header .header-mid {
     font-size: 25px;
     border-radius: 50%;
 }
+
+.sushi-saum {
+    background-image: url("../src/assets/img/carte5.jpg");
+}
+
+.sushi-vegetale {
+    background-image: url("../src/assets/img/carte6.jpg");
+}
+
+.multi-vegetale {
+    background-image: url("../src/assets/img/carte7.jpg");
+}
+
+.multi-viande {
+    background-image: url("../src/assets/img/carte8.jpg");
+}
+
+.soupe-miso {
+    background-image: url("../src/assets/img/carte9.jpg");
+}
+
+.plateau-sushi {
+    background-image: url("../src/assets/img/carte10.jpg");
+}
